@@ -1,0 +1,488 @@
+@import url("./comon.css");
+
+.home_header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.home_header_right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home_header_right a {
+    color: var(--main-color);
+}
+
+.home_intro {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.home_intro_left {
+    width: 50%; 
+}
+
+.home_intro_left_text {
+    color: var(--main-color);
+}
+
+.home_intro_left_text p:nth-child(2) {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.home_intro_left_rink-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    
+}
+
+.home_intro_left_sns {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.home_intro_left_sns p {
+    font-size: 40px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.home_intro_left_sns img {
+    cursor: pointer;
+}
+
+.home_intro_right {
+    width: 50%;
+}
+
+.home_intro_right img {
+    width: 100%;
+}
+
+
+.home_description {
+    text-align: center;
+}
+
+.home_description_logo-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: var(--logo-background);
+}
+
+.home_description_logo {
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    margin-top:-10px;
+}
+
+
+
+
+
+
+.home_03{
+    color:var(--main-color);
+    margin-top: 20rem;;
+}
+
+.home_03_title{
+    font-size:60px;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.home_03_programing_pate1{
+    
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home_03_programing_pate2{
+    
+    display:flex;
+    justify-content: space-between;
+}
+.home_03_programing-p{
+    display:flex;
+    font-size:30px;
+    justify-content: center;
+    font-weight:900;
+    margin-bottom:10px;
+}
+
+.home_03_programing-img{
+    width: 200px;
+    
+}
+
+.home_03_programing_pate1_type1{
+    flex-wrap:wrap;
+}
+
+
+
+
+
+.home_description {
+    margin-top: 20rem;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home_description p:nth-of-type(1) {
+    margin-top: 3rem;
+    font-size: 48px;
+    font-weight:900;
+}
+
+.home_description span:nth-of-type(2) {
+    color: var(--dark-gray);
+}
+
+.home_description p:nth-of-type(n) {
+    margin-top:3rem;
+}
+
+.home_description p:nth-of-type(8){
+    margin-top: 8rem;
+}
+
+.home_description p:nth-of-type(9){
+    font-size:36px;
+    font-weight: 700;
+}
+
+.home_derscription span .bold {
+    font-weight: 700;
+    color: var(--dark-gray);
+}
+
+.home_learn-skills_title{
+    color: var(--dark-gray);
+    margin-top: 20rem;
+    
+}
+
+.home_learn-skills_title .bold{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.home_learn-skills_title_flex-box {
+    display:flex;
+    color: var(--main-color);    
+}
+
+.home_learn-skills_title_flex-box .p{
+    margin:0;
+}
+
+.home_learn-skills_container {
+    width:70%;
+    margin: 5rem auto;
+    border: 1px solid var(--dark-gray);
+    border-radius: 10px;
+    padding: 3rem;
+    position: relative;
+}
+
+.home_learn-skills_select-skill {
+    width: 50%;
+    position:absolute;
+    top: -25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_learn-skills_skill-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--soft-gray);
+    color: black;
+    font-weight:700;
+    cursor: pointer;
+}
+
+.home_learn-skills_skill-box:hover{
+    background-color: var(--dark-gray);
+    color:white;
+}
+
+.home_learn-skills_select-skill .selected{
+    color: white;
+    background-color: var(--dark-gray);
+}
+
+
+
+.home_learn-skills_flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_learn-skills_flex-box:last-child{
+    align-items: flex-end;
+    margin-top: -2rem;
+}
+
+.home_learn-skills_step{
+    width: 20%;
+    border-radius: 20px;
+    color: white;
+    padding: 2rem;
+    font-size:13px;
+}
+
+.home_learn-skills_step p{
+    margin-top:0px;
+    font-weight: 400;
+}
+
+.home_learn-skills_step p:first-child {
+    margin-bottom:2rem;
+}
+
+.home_learn-skills_flex-box .step1{
+    height: 100px;
+    width:20%;
+    background-color: var(--dark-gray);
+}
+
+.home_learn-skills_flex-box .step2{
+    height: 160px;
+    background-color: var(--main-color);
+}
+
+.home_learn-skills_flex-box .step3{
+    height: 100px;
+    background-color: var(--soft-gray);
+    color: black;
+}
+
+.home_learn-skills_flex-box .step4{
+    height: 160px;
+    background-color: var(--soft-gray);
+    color: black;
+}
+
+.home_learn-skills_flex-box .step5{
+    height: 100px;
+    background-color: var(--dark-gray);
+}
+
+.home_learn-skills_flex-box .step6{
+    height: 160px;
+    background-color: var(--main-color);
+}
+/* --- */
+
+.home_05{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.home_05_title-p{
+    color:var(--main-color);
+    font-weight: 900;
+    font-size:60px;
+}
+
+.home_05_title_color{
+    color:var(--dark-gray)
+}
+
+.home_05_language{
+    margin-top: 4rem;
+    width: 40rem;
+}
+
+.home_05_skill{
+    margin-top: 4rem;
+    width: 40rem;
+}
+
+.home_05_language-p{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home_05_skill-p{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.home_05-color{
+    color:var(--main-color);
+    margin-right: 5px;
+}
+
+.home_05_img{
+    display:flex;
+    justify-content: space-around;
+}
+
+.home_05-img{
+    height: 5rem;
+    width:5rem;
+} 
+
+
+/* 파트5--- */
+
+
+.home_06_whycomseba{
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    background-color:white;
+    border: 10px;
+    border-color: rgb(0, 0, 0);
+}
+
+.home_06_whycomseba_header{
+    display: flex;
+    font-weight: 900;
+    color:var(--main-color);
+    margin:0px;
+    justify-content: flex-end;
+}
+
+.home_06_whycomseba_header_1p{
+    font-size: 2rem;
+    margin:0px;
+    display:flex;
+    justify-content: end;
+    font-weight: 900;
+    margin-right: 8rem;
+}
+
+.home_06_whycomseba_header_2p{
+    font-size: 2rem;
+    margin:0px;
+    color:var(--logo-background);   
+    display:flex;
+    justify-content: end;
+    font-weight: 900;
+}
+
+.home_06_whycomseba_header_3p{
+    font-size: 15px;
+    margin:0px;
+    display:flex;
+    justify-content: end;
+}
+
+.home_06_whycomseba_header_4p{
+    font-size: 15px;
+    margin:0px;
+    display:flex;
+    justify-content: end;
+}
+
+.home_06_whycomseba_space{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+
+.home_06_whycomseba_space_imgspace{
+    display:flex;
+    justify-content: space-between;
+}
+
+.home_06_whycomseba_space_imgspace_imgbax01{
+    display: flex;
+    justify-content: center;
+    background-color:var(--dark-gray);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.home_06_whycomseba_space_imgspace_imgbax02{
+    display: flex;
+    justify-content: center;
+    background-color:var(--main-color);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.home_06_whycomseba_space_imgspace_imgbax03{
+    display: flex;
+    justify-content: center;
+    background-color:var(--dark-gray);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.home_06_whycomseba_space_imgspace_imgbax01_img{
+    width: 200px;
+}
+
+.home_06_whycomseba_space_imgspace_imgbax02_img{
+    width: 200px;
+}
+
+.home_06_whycomseba_space_imgspace_imgbax03_img{
+    width: 200px;
+}
+
+.home_06_whycomseba_DetailsSpace{
+    height: 10rem;
+    background-color: var(--eded-gray);
+}
+
+.home_06_whycomseba_DetailsSpace_p{
+    font-size: 10px;
+    color:gray ;
+    font-weight: 900;
+    margin:0rem;
+    margin-left: 10px;
+}
+
+.home_06_whycomseba_DetailsSpace_p.p1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/* 파트6-----*/
+
+
+
+
+
+
